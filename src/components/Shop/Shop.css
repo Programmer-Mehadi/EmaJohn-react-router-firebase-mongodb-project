@@ -10,3 +10,23 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
+.pagination {
+  width: fit;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.pagination button {
+  margin-left: 5px;
+}
+.pagination .select-option {
+  margin-left: 10px;
+  background-color: orange;
+  
+}
+.pagination .select-option select {
+  background-color: orange;
+}
+.pagination .selected{
+  background-color: orange;
+}
