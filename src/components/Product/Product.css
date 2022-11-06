@@ -1,0 +1,22 @@
+.product {
+  border-radius: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product-body {
+  padding: 5px;
+}
+.product img {
+  height: 286px;
+  width: 286px;
+  border-radius: 5px;
+}
+.product .addtocartbtn {
+  background-color: orange;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+}

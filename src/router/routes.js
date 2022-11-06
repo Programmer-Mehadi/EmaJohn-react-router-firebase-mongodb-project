@@ -25,6 +25,7 @@ const routes = createBrowserRouter([
         },
         {
             path: '/shop',
+            loader: () => fetch('products.json'),
             element: <Shop></Shop>
         },
         {
