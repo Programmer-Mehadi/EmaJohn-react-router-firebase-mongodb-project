@@ -1,0 +1,27 @@
+.header {
+  background-color: black;
+  color: white;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+.header-container .right ul {
+  list-style-type: none;
+}
+.header-container .right ul li  {
+  display: inline;
+ 
+  color: white;
+}
+.header-container .right ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.header-container .right ul li a:hover{
+    color: black;
+    background-color: orange;
+    border-radius: 5px;    
+}
